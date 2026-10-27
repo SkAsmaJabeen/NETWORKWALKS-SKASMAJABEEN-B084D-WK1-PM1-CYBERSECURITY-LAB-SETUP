@@ -32,6 +32,9 @@ This project involves setting up a virtual cybersecurity testing environment usi
 | 7-Zip                    | Archive extraction, where required  |
 | NetworkManager (`nmcli`) | Network configuration in Kali Linux |
 
+### 1. VirtualBox and Kali Linux
+![VirtualBox Kali VM](screenshots/01-virtualbox-kali.png)
+
 ## 4. Network Configuration
 
 | Parameter       | Required configuration                           |
@@ -43,6 +46,9 @@ This project involves setting up a virtual cybersecurity testing environment usi
 | Gateway         | `10.0.0.1` (verify against actual configuration) |
 | DNS             | Configured DNS resolver(s)                       |
 | Internet access | To be verified                                   |
+
+### 2. NAT Network Configuration
+![NAT Network](screenshots/02-nat-network.png)
 
 ## 5. Implementation Steps
 
@@ -71,6 +77,8 @@ Check the routing table:
 ```bash
 ip route
 ```
+### 3. Kali Linux IP Address
+![Kali IP](screenshots/03-kali-ip.png)
 
 Test connectivity to the configured gateway:
 
@@ -89,17 +97,28 @@ Test DNS resolution:
 ```bash
 ping -c 4 google.com
 ```
+### 4. Internet Connectivity
+![Internet Connectivity](screenshots/04-internet-connectivity.png)
 
 **Verification results:** Record the actual results after running these tests.
 
-- Kali IP address: [Verified / Pending]
-- NAT Network subnet: [Verified / Pending]
-- Gateway connectivity: [Pass / Fail / Not tested]
-- Internet connectivity: [Pass / Fail / Not tested]
-- DNS resolution: [Pass / Fail / Not tested]
-- Clipboard and drag-and-drop: [Verified / Pending]
-- Shared folder: [Verified / Pending]
-- VM snapshot: [Created / Pending]
+- Kali IP address: Verified
+- NAT Network subnet: Verified
+- Gateway connectivity: Pass
+- Internet connectivity: Pass
+- DNS resolution: Pass
+- Clipboard and drag-and-drop: Verified
+- Shared folder: Verified
+- VM snapshot: Created
+
+### 5. Clipboard and Drag-and-Drop
+![Clipboard Settings](screenshots/05-clipboard-drag-drop.png)
+
+### 6. Shared Folder
+![Shared Folder](screenshots/06-shared-folder.png)
+
+### 7. VM Snapshot
+![VM Snapshot](screenshots/07-vm-snapshot.png)
 
 ## 7. Screenshots and Evidence
 
@@ -115,7 +134,6 @@ The `screenshots/` directory contains evidence of the lab configuration.
 | `06-shared-folder.png`         | Shared folder configuration       |
 | `07-vm-snapshot.png`           | Completed VM snapshot             |
 
-Replace any missing evidence and filenames as necessary.
 
 ## 8. Troubleshooting: Kali Linux Internet Connectivity
 
