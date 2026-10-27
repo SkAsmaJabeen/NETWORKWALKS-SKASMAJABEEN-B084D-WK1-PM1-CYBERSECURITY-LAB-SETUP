@@ -3,7 +3,7 @@
 
 ## NetworkWalks Cybersecurity Internship
 
-**Project:** Week 1 – Project Module 1 (WK1-PM1)
+**Project:** Week 1 - Project Module 1 (WK1-PM1)
 **Author:** Asma Jabeen Shaik
 **Tools:** Oracle VirtualBox, Kali Linux, 7-Zip
 **Category:** Cybersecurity Lab Setup
